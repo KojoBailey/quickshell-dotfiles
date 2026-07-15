@@ -41,9 +41,13 @@ PanelWindow {
 		/* Top */
 		PowerButton {}
 		Workspaces {
-			workspaceCount: 10
-			showInactiveWorkspaces: true
+			minimumAlwaysShown: 0
 			workspaceSymbols: ["一", "二", "三", "四", "五", "六", "七", "八", "九", "零"]
+			namedWorkspaces: ["browser", "obsidian", "claude", "discord"]
+			appIconOverrides: {
+				"browser": "waterfox",
+				"claude": "claude-desktop",
+			}
 		}
 
 		VerticalClear {}
