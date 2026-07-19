@@ -1,6 +1,8 @@
 import Quickshell
 import Quickshell.Wayland
 
+import "modules/lockscreen"
+
 ShellRoot {
     LockContext {
         id: lockContext
