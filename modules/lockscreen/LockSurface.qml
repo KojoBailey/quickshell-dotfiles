@@ -16,7 +16,7 @@ Item {
 
         anchors.fill: parent
 
-        source: "file:///home/kojo/Pictures/Gyro.jpg"
+        source: "file:///home/kojo/Pictures/Wallpapers/Gyro.jpg"
         fillMode: Image.PreserveAspectCrop
         opacity: 0.7
     }
